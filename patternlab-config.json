@@ -23,19 +23,13 @@
   "ishViewportRange": {
     "s": [
       240,
-      500,
-      240,
       500
     ],
     "m": [
       500,
-      800,
-      500,
       800
     ],
     "l": [
-      800,
-      2600,
       800,
       2600
     ]
@@ -78,11 +72,8 @@
       "css": "public/css"
     }
   },
-  "patternExtension": "mustache",
+  "patternExtension": "njk",
   "patternStateCascade": [
-    "inprogress",
-    "inreview",
-    "complete",
     "inprogress",
     "inreview",
     "complete"
@@ -100,13 +91,6 @@
     "layout": "horizontal"
   },
   "uikits": [
-    {
-      "name": "uikit-workshop",
-      "outputDir": "",
-      "enabled": true,
-      "excludedPatternStates": [],
-      "excludedTags": []
-    },
     {
       "name": "uikit-workshop",
       "outputDir": "",

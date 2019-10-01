@@ -1,0 +1,17 @@
+<ul class="sg-colors">
+
+    {% for item in items %}
+    <li>
+        <span class="sg-swatch" style="background: {{ item.value }};"></span>
+        <span class="sg-label">
+            {{ item.name }}
+            <br /> {{ item.value }}
+            <br /> {{ item.comment }}
+        </span>
+    </li>
+    {% endfor %}
+
+</ul>
+<!--end sg-colors-->
+
+<small>{{ meta.description | safe }}</small>

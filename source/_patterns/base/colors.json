@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "name": "$color-brand-blue",
+            "value": "#0C7EF0",
+            "comment": ""
+        },
+        {
+            "name": "$color-brand-blue-dark",
+            "value": "#185EA3",
+            "comment": ""
+        },
+        {
+            "name": "$color-brand-red",
+            "value": "#F23124",
+            "comment": ""
+        },
+        {
+            "name": "$color-brand-green",
+            "value": "#ACBD1C",
+            "comment": ""
+        },
+        {
+            "name": "$color-brand-green-dark",
+            "value": "#92A300",
+            "comment": ""
+        }
+    ]
+}

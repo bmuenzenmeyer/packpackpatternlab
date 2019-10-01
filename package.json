@@ -9,7 +9,9 @@
     "pl:help": "patternlab --help",
     "pl:install": "patternlab install --config ./patternlab-config.json",
     "pl:serve": "patternlab serve --config ./patternlab-config.json",
-    "pl:version": "patternlab --version"
+    "pl:version": "patternlab --version",
+    "styles": "npx node-sass source/scss/style.scss source/css/style.css",
+    "watch-styles": "nodemon -e scss -x \"npm run styles\""
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,9 @@
     "@pattern-lab/core": "3.0.3",
     "@pattern-lab/engine-nunjucks": "0.2.1",
     "@pattern-lab/uikit-workshop": "1.0.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
   }
 }
